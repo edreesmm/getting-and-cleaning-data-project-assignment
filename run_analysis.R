@@ -26,16 +26,18 @@ if(!file.exists("./DATA CLEANING PROJECT/UCI HAR Dataset")){
 
 path <- file.path("./DATA CLEANING PROJECT" , "UCI HAR Dataset")
 
-files<-list.files(path, recursive=TRUE)
+files <-list.files(path, recursive=TRUE)
 
 # 6 - The list of Files used to load data:
 
-test/subject_test.txt
-test/X_test.txt
-test/y_test.txt
-train/subject_train.txt
-train/X_train.txt
-train/y_train.txt
+files
+# will print
+ # test/subject_test.txt
+ # test/X_test.txt
+ # test/y_test.txt
+ # train/subject_train.txt
+ # train/X_train.txt
+ # train/y_train.txt
 
 # 7 - Reading Activity files
 
